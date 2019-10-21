@@ -1,4 +1,4 @@
-# node-clover
+# node-posrocket
 
 Simple NodeJS wrapper for [POSRocket API](http://launchpad.rocketinfra.com/v0.4.0/docs).
 
