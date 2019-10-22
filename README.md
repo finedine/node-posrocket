@@ -121,9 +121,21 @@ try {
 
 - - **locations.listTabCategories(location_id, ordering, page, page_size)** // [Tab Category List](http://launchpad.rocketinfra.com/v0.4.0/docs#operation/locations_tabs_categories_list)\*
 
+- - **locations.listTabTemplates(location_id, ordering, page, page_size)** // [Tab Template List](http://launchpad.rocketinfra.com/v0.4.0/docs#operation/locations_tabs_templates_list)\*
+
+- - **locations.getTabTemplate(location_id, tab_temp_id)** // [Tab Template Detail](http://launchpad.rocketinfra.com/v0.4.0/docs#operation/locations_tabs_templates_read)\*
+
 - - **locations.getTabCategory(location_id, tab_cat_id)** // [Tab Category Detail](http://launchpad.rocketinfra.com/v0.4.0/docs#operation/locations_tabs_categories_read)\*
 
 - - **locations.previewTab(location_id, payload)** // [Tab Preview](http://launchpad.rocketinfra.com/v0.4.0/docs#operation/locations_tabs_preview_tab)\*
+
+- - **locations.createTab(location_id, payload)** // [Tab / Order Create](http://launchpad.rocketinfra.com/v0.4.0/docs#operation/locations_tabs_create)\*
+
+- - **locations.assignTabPickup(location_id, tab_id, payload)** // [Tab Assign Pickup](http://launchpad.rocketinfra.com/v0.4.0/docs#operation/locations_tabs_assign_pickup)\*
+
+- - **locations.unassignTabPickup(location_id, tab_id, payload)** // [Tab Unassign Pickup](http://launchpad.rocketinfra.com/v0.4.0/docs#operation/locations_tabs_unassign_pickup)\*
+
+- - **locations.cancelTab(location_id, tab_id, payload)** // [Tab Cancel](http://launchpad.rocketinfra.com/v0.4.0/docs#operation/locations_tabs_cancel)\*
 
 ## Contributing
 
