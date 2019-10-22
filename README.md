@@ -109,6 +109,22 @@ try {
 
 - - **locations.getRegister(location_id, register_id)** // [Register Detail](http://launchpad.rocketinfra.com/v0.4.0/docs#operation/locations_registers_read)\*
 
+- - **locations.listSales(location_id, ordering, page, page_size, begin_time, end_time, creator_id, customer_id, payment_method)** // [Sale List](http://launchpad.rocketinfra.com/v0.4.0/docs#operation/locations_sales_list)\*
+
+- - **locations.getSale(location_id, sale_id)** // [Sale Detail](http://launchpad.rocketinfra.com/v0.4.0/docs#operation/locations_sales_read)\*
+
+- - **locations.listRefunds(location_id, sale_id)** // [Sale Refund List](http://launchpad.rocketinfra.com/v0.4.0/docs#operation/locations_sales_refunds)\*
+
+- - **locations.listTabs(location_id, ordering, page, page_size, status, sequence_number)** // [Tab List](http://launchpad.rocketinfra.com/v0.4.0/docs#operation/locations_tabs_list)\*
+
+- - **locations.getTab(location_id, tab_id)** // [Tab Detail](http://launchpad.rocketinfra.com/v0.4.0/docs#operation/locations_tabs_templates_read)\*
+
+- - **locations.listTabCategories(location_id, ordering, page, page_size)** // [Tab Category List](http://launchpad.rocketinfra.com/v0.4.0/docs#operation/locations_tabs_categories_list)\*
+
+- - **locations.getTabCategory(location_id, tab_cat_id)** // [Tab Category Detail](http://launchpad.rocketinfra.com/v0.4.0/docs#operation/locations_tabs_categories_read)\*
+
+- - **locations.previewTab(location_id, payload)** // [Tab Preview](http://launchpad.rocketinfra.com/v0.4.0/docs#operation/locations_tabs_preview_tab)\*
+
 ## Contributing
 
 If you want to contribute to a project and make it better, your help is very welcome.
