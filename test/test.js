@@ -5,7 +5,7 @@ const should = chai.should();
 
 const credentials = require("../test.credentials");
 
-const PR = require("../lib/posrocket")();
+const PR = require("../lib/posrocket");
 
 const POSRocket = PR.initialize(credentials.ACCESS_TOKEN);
 
