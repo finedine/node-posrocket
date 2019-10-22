@@ -137,6 +137,12 @@ try {
 
 - - **locations.cancelTab(location_id, tab_id, payload)** // [Tab Cancel](http://launchpad.rocketinfra.com/v0.4.0/docs#operation/locations_tabs_cancel)\*
 
+- **reports**
+
+- - **reports.endOfDay(id, begin_time, end_time)** // [End of Day](http://launchpad.rocketinfra.com/v0.4.0/docs#operation/reports_end_of_day)\*
+
+- - **reports.summary(id, begin_time, end_time)** // [Summary](http://launchpad.rocketinfra.com/v0.4.0/docs#operation/reports_summary)\*
+
 ## Contributing
 
 If you want to contribute to a project and make it better, your help is very welcome.
