@@ -1,3 +1,5 @@
+[![NPM version][npm-image]][npm-url]
+
 # node-posrocket
 
 Simple NodeJS wrapper for [POSRocket API v0.4.0](http://launchpad.rocketinfra.com/v0.4.0/docs).
