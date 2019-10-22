@@ -1,6 +1,6 @@
 # node-posrocket
 
-Simple NodeJS wrapper for [POSRocket API](http://launchpad.rocketinfra.com/v0.4.0/docs).
+Simple NodeJS wrapper for [POSRocket API v0.4.0](http://launchpad.rocketinfra.com/v0.4.0/docs).
 
 ## Getting Started
 
