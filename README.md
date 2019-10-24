@@ -79,7 +79,7 @@ try {
 
 - **locations**
 
-- - **locations.list(ordering, page, page_size)** // [Location List](http://launchpad.rocketinfra.com/v0.4.0/docs#operation/locations_list)\*
+- - **locations.list(ordering)** // [Location List](http://launchpad.rocketinfra.com/v0.4.0/docs#operation/locations_list)\*
 
 - - **locations.get(id)** // [Location Detail](http://launchpad.rocketinfra.com/v0.4.0/docs#operation/locations_read)\*
 
