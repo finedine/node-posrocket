@@ -1,6 +1,6 @@
 {
   "name": "node-posrocket",
-  "version": "0.0.11",
+  "version": "1.0.0",
   "description": "Node.js wrapper for POSRocket API",
   "main": "index.js",
   "directories": {
@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/finedine/node-posrocket/issues"
   },
-  "homepage": "https://github.com/finedine/node-posrocket#readme",
+  "homepage": "https://github.com/finedine/node-posrocket",
   "dependencies": {
     "bluebird": "^3.5.4",
     "lodash": "^4.17.11",
