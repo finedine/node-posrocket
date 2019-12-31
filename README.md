@@ -79,11 +79,11 @@ try {
 
 - **customers**
 
-- - **directory.customers.list(ordering, page, page_size)** // [Country List](https://developer.posrocket.com/v1/docs#operation/countries_list)\*
+- - **directory.customers.list(ordering, page, page_size)** // [Costumer List](https://developer.posrocket.com/v1/docs#operation/directory_customers_list)\*
 
-- - **irectory.customers.get(id)** // [Country Detail](https://developer.posrocket.com/v1/docs#operation/countries_read)\*
+- - **irectory.customers.get(id)** // [Costumer Detail](https://developer.posrocket.com/v1/docs#operation/directory_customers_read)\*
 
-- - **irectory.customers.create(payload)** // [City List](https://developer.posrocket.com/v1/docs#operation/countries_city_list)\*
+- - **irectory.customers.create(payload)** // [Costumer Create](https://developer.posrocket.com/v1/docs#operation/directory_customers_create)\*
 
 - **locations**
 
