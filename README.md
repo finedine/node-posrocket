@@ -19,6 +19,7 @@ Basically require `node-posrocket` and create a token with `getToken(code, clien
 ```
 const PR = require("node-posrocket");
 const accessToken = PR.getToken(base_url, code, client_id, client_secret, redirect_uri); // to create an Access Token
+const accessToken = PR.refreshToken(base_url, client_id, client_secret, refresh_token); // to refresh an expired Access Token
 const posRocket = PR.initialize(base_url, accessToken); // initialize the wrapper with a created Access Token
 
 try {
@@ -31,7 +32,9 @@ try {
 
 ## Available Functions
 
-- **getToken(code, client_id, client_secret, redirect_uri)** // [OAuth2](https://developer.posrocket.com/blog/authentication/)\*
+- **getToken(base_url, code, client_id, client_secret, redirect_uri)** // [OAuth2](https://developer.posrocket.com/blog/authentication/)\*
+
+- **refreshToken(base_url, client_id, client_secret, refresh_token)** // [OAuth2](https://developer.posrocket.com/blog/authentication/)\*
 
 - **me**
 
